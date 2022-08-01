@@ -10,9 +10,13 @@
 - train data : 총 458913 samples, 190 columns
 - test data : 총 924621 samples, 190 columns
 - 데이터 컬럼 설명 :  D_* = Delinquency: 과실, 태만, 체납 -> 연체 변수
+
                      S_* = Spend. 소비 변수
+                     
                      P_* = Payment. 지급 변수
+                     
                      B_* = Balance. 균형 변수
+                     
                      R_* = Risk. 위험 변수
                   
 ## 2. 전처리 

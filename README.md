@@ -8,5 +8,4 @@
 ## 1. 데이터
 - train data : 총 458913 samples, 190 columns
 - test data : 총 924621 samples, 190 columns
-- 데이터 컬럼 설명 :  D_* = Delinquency: 범죄여부 
-                  ㄴ S_* =  
+- 데이터 컬럼 설명 :  D_* = Delinquency : 

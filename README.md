@@ -1,5 +1,4 @@
 # Kaggle-American_Express
-Kaggle Competition - American_Express
 <p>
   대회 개요
   </p>

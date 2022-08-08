@@ -41,6 +41,6 @@
 ### 2.3. 이진분류 데이터
 - 범주형 데이터와 비슷하지만 1,0 또는 1,nan 으로 이루어진 컬럼이 있었다.
 <p align="left">
-    <img src="images/categorical_features.png">
+    <img src="binary_features.png">
 </p>
 <br>

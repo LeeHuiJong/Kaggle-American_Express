@@ -7,7 +7,7 @@
 - 대회링크 (https://www.kaggle.com/competitions/amex-default-prediction/overview)
 
 ## 1. 데이터
-- train data : 총 458913 samples, 190 columns
+- train data : 총 5531451 samples, 190 columns
 - test data : 총 924621 samples, 190 columns
 - 데이터 컬럼 설명 :  
                      D_* = Delinquency: 과실, 태만, 체납 -> 연체 변수  
@@ -20,6 +20,6 @@
                  
 ## 2. 전처리 방향
 - EDA에서 우선적으로 확인할 수 있었던 점은 고객별로 가지고 있는 내역의 수가 1~13개 였다는 점이다.
-<p align="center">
-    <img src="images/preprocessing1.jpg">
+<p align="left">
+    <img src="images/statement_per_customer.png">
 </p>

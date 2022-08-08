@@ -18,7 +18,7 @@
 - [데이터 원본](https://www.kaggle.com/competitions/amex-default-prediction/data)
 - 외부 데이터 사용여부 : 카드사 자체에서 제공한 데이터이기 때문에 연관성 있는 외부데이터 사용불가.
                  
-## 2. 전처리 방향
+## 2. EDA를 기반으로 한 전처리 방향
 - EDA에서 우선적으로 확인할 수 있었던 점은 고객별로 가지고 있는 내역의 수가 1~13개 였다는 점이다.
 
 <p align="left">

@@ -14,6 +14,7 @@
                      S_* = Spend. 소비 변수  
                      P_* = Payment. 지급 변수  
                      B_* = Balance. 균형 변수  
-                     R_* = Risk. 위험 변수  
+                     R_* = Risk. 위험 변수
+- [데이터 원본](https://www.kaggle.com/competitions/amex-default-prediction/data)
                  
 ## 2. 전처리 

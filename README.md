@@ -53,7 +53,7 @@
 - 우선 세가지 머신러닝 XGB, Catboost, LGBM 모델이 가장 많이 쓰이고 있었기 때문에 사용.
 ### 3.1 XGBoost
 - 가장 보편적인 모델, 코드를 공유해주는 많은 사람들이 XGB모델을 사용함.
-- 준수한 성능을 보여주었고 약간의 결측치 처리에 변화를 주어도 성능이 어느정도 상승함<br>[결측치 변화 모델시행 결과](https://github.com/LeeHuiJong/Kaggle-American_Express/blob/main/%EB%AA%A8%EB%8D%B8%EC%8B%9C%ED%96%89/amex-fold-10-nan-0.ipynb)
+- 준수한 성능을 보여주었고 약간의 결측치 처리에 변화를 주어도 성능이 어느정도 상승함<br>([결측치 변화 후 시행 결과])(https://github.com/LeeHuiJong/Kaggle-American_Express/blob/main/%EB%AA%A8%EB%8D%B8%EC%8B%9C%ED%96%89/amex-fold-10-nan-0.ipynb)
 - 파라미터 변경에 가장 적게 영향을 받는 모델
 ### 3.2 Catboost
 

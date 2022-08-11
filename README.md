@@ -19,7 +19,8 @@
 - 외부 데이터 사용여부 : 카드사 자체에서 제공한 데이터이기 때문에 연관성 있는 외부데이터 사용불가.
                  
 ## 2. EDA를 기반으로 한 전처리 방향
-
+- 먼저 인지하고 가야할 사항은 test 셋의 샘플수와 submission 셋의 샘플수가 일치하지 않는다는 점이다. submission 셋에는 <br>
+  중복되는 고객ID가 없고 test셋에는 존재한다.
 <p align="left">
     <img src="images/statement_per_customer.png">
 </p>

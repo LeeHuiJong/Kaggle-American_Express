@@ -38,7 +38,15 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 <p align="right">
     <img src="images/deliquency_2.png">
 </p>
-
+<p align="left">
+    <img src="images/spend_1..png">
+</p>
+<p align="left">
+    <img src="images/payment_1.png">
+</p>
+<p align="left">
+    <img src="images/balance_1.png">
+</p>
 
 ### 2.1. 연속형 데이터
 - 우선적으로 확인할 수 있었던 점은 고객별로 가지고 있는 내역의 수가 1~13개 였다는 점이다.

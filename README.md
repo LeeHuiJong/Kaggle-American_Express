@@ -19,6 +19,12 @@
 - 외부 데이터 사용여부 : 카드사 자체에서 제공한 데이터이기 때문에 연관성 있는 외부데이터 사용불가.
                  
 ## 2. EDA를 기반으로 한 전처리 방향
+- 본 경진 대회의 '목적'은 American Express 사의 카드를 사용하는 고객들이 상환 날짜가 연체된 비용을 지불 가능한지 예상하는 것이다. 먼저 train 셋에 있는 target columns을 이용하여
+Default(연체)와 Paid(지불)의 비율을 알아 보았다.
+<p align="left">
+    <img src="images/target_distribution.png">
+</p>
+
 - 먼저 인지하고 가야할 사항은 test 셋의 샘플수와 submission 셋의 샘플수가 일치하지 않는다는 점이다. submission 셋에는 <br>
   중복되는 고객ID가 없고 test셋에는 존재한다.
 <p align="left">

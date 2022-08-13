@@ -39,13 +39,10 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
     <img src="images/deliquency_2.png">
 </p>
 <p align="left">
-    <img src="images/spend_1..png">
+    <img src="images/spend_1.png">
 </p>
 <p align="left">
     <img src="images/payment_1.png">
-</p>
-<p align="left">
-    <img src="images/balance_1.png">
 </p>
 <p align="left">
     <img src="images/balance_1.png">

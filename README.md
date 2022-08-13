@@ -31,6 +31,15 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
     <img src="images/statement_per_customer.png">
 </p>
 
+- 190개의 columns을 Deliquency, Spend, Payment, Balance, Risk 등 5가지로 나눌 수 있었다. 데이터를 처리할 때 많은 데이터를 처리하는 것 뿐만 아니라 데이터의 결측치를 어떻게 해결해 주어야 할지도 프로젝트를 진행하는 데에 힘이 들었던 부분이다.
+<p align="left">
+    <img src="images/deliquency_1.png">
+</p>
+<p align="right">
+    <img src="images/deliquency_2.png">
+</p>
+
+
 ### 2.1. 연속형 데이터
 - 우선적으로 확인할 수 있었던 점은 고객별로 가지고 있는 내역의 수가 1~13개 였다는 점이다.
 - 위 결과를 참고해 각 고객의 내역들을 취합해 평균, 표준편차, 최소, 최대값 등의 통계수치를 파생변수로<br>

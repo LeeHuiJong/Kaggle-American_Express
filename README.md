@@ -28,8 +28,9 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 - 먼저 인지하고 가야할 사항은 test 셋의 샘플수와 submission 셋의 샘플수가 일치하지 않는다는 점이다. submission 셋에는 <br>
   중복되는 고객ID가 없고 test셋에는 존재한다.
 <p align="left">
-    <img src="images/statement_per_customer.png">
+    <img src="images/train_test statements per customer.png">
 </p>
+- 원 그래프는 'customer-Id' 별 데이터의 갯수이다. 13개의 데이터가 가장 많았다. 이는 실제 1사람의 기록이 13명의 기록처럼 가공이 될 우려가 있다. 이를 방지하기 위해(모든 customer들의 연체금 지불 여부를 알기위해) 각 customer-Id 별 가장 마지막 거래만 뽑아서 데이터를 가공하였다.
 
 - 190개의 columns을 Deliquency, Spend, Payment, Balance, Risk 등 5가지로 나눌 수 있었다. 데이터를 처리할 때 많은 데이터를 처리하는 것 뿐만 아니라 데이터의 결측치를 어떻게 해결해 주어야 할지도 프로젝트를 진행하는 데에 힘이 들었던 부분이다.
 <p align="left">

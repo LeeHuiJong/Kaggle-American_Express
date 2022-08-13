@@ -24,6 +24,7 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 <p align="left">
     <img src="images/target_distribution.png">
 </p>
+
 - 원 그래프는 'customer-Id' 별 데이터의 갯수이다. 13개의 데이터가 가장 많았다. 이는 실제 1사람의 기록이 13명의 기록처럼 가공이 될 우려가 있다. 이를 방지하기 위해(모든 customer들의 연체금 지불 여부를 알기위해) 각 customer-Id 별 가장 마지막 거래만 뽑아서 데이터를 가공하였다.
 
 - 먼저 인지하고 가야할 사항은 test 셋의 샘플수와 submission 셋의 샘플수가 일치하지 않는다는 점이다. submission 셋에는 <br>

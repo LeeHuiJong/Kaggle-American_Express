@@ -35,7 +35,7 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 <p align="left">
     <img src="images/deliquency_1.png">
 </p>
-<p align="right">
+<p align="left">
     <img src="images/deliquency_2.png">
 </p>
 <p align="left">
@@ -47,7 +47,12 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 <p align="left">
     <img src="images/balance_1.png">
 </p>
-
+<p align="left">
+    <img src="images/balance_1.png">
+</p>
+<p align="left">
+    <img src="images/risk_1.png">
+</p>
 ### 2.1. 연속형 데이터
 - 우선적으로 확인할 수 있었던 점은 고객별로 가지고 있는 내역의 수가 1~13개 였다는 점이다.
 - 위 결과를 참고해 각 고객의 내역들을 취합해 평균, 표준편차, 최소, 최대값 등의 통계수치를 파생변수로<br>

@@ -83,11 +83,6 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 <br>
 
 ## 3. 모델 선정
-
-<p align="center">
-    <img src="images/AutoML_Model_evaluation.PNG">
-</p>
-
 - 우선 세가지 머신러닝 XGB, Catboost, LGBM 모델이 가장 많이 쓰이고 있었기 때문에 사용.
 ### 3.1 XGBoost
 - 가장 보편적인 모델, 코드를 공유해주는 많은 사람들이 XGB모델을 사용함(베이스라인 모델로 선정함).
@@ -104,6 +99,10 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 - AutoML에는 Catboost, lightgbm(LGBM), XGBoost 뿐 만 아니라 gbr, rf, et, ridge 등 20개의 모델을 사용.
 - 한 번 시행시 데이터를 모든 모델에 넣어보기 때문에 경제성이 매우 떨어지는 단점.
 - train(약 460,000개)의 크기를 2,000 / 10,000 / 12,000 / 15,000 / 30,000 개로 증가시켜 시행 해 본 결과 0.725/ 0.756/ 0.757/ 0.764/ 0.765로 train 데이터가 커질수록 좋은 결과가 나오는 것을 확인.
+
+<p align="center">
+    <img src="images/AutoML_Model_evaluation.PNG">
+</p>
 
 ### 3.5 앙상블
 - 결과가 좋았던 모델들 중 4~5개를 모아서 각 모델별로 가중치를 달리해 예측값을 취합.

@@ -84,7 +84,7 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 
 ## 3. 모델 선정
 
-<p align="left">
+<p align="center">
     <img src="images/AutoML_Model_evaluation.PNG">
 </p>
 

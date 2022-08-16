@@ -84,6 +84,10 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 
 ## 3. 모델 선정
 
+<p align="left">
+    <img src="images/AutoML_Model_evaluation.PNG">
+</p>
+
 - 우선 세가지 머신러닝 XGB, Catboost, LGBM 모델이 가장 많이 쓰이고 있었기 때문에 사용.
 ### 3.1 XGBoost
 - 가장 보편적인 모델, 코드를 공유해주는 많은 사람들이 XGB모델을 사용함(베이스라인 모델로 선정함).

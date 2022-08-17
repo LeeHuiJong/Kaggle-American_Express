@@ -135,18 +135,22 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 <p align="left">
     <img src="images/xgbpredict.png">
 </p>
+
 ### 4.2. Catboost
 <p align="left">
     <img src="images/catboostpredict.png">
 </p>
+
 ### 4.3. LGBM
 <p align="left">
     <img src="images/lgbmpredict.png">
 </p>
+
 ### 4.4. AutoML(pycaret)
 <p align="left">
     <img src="images/automlpredict.png">
 </p>
+
 ### 4.5. Ansemble(앙상블)
 
 ## 5. 추론 및 검증 결과 

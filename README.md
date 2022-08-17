@@ -146,7 +146,7 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 
 ### 4.5. Ansemble(앙상블)
 <p align="left">
-    <img src="images/ansemblepredict.png">
+    <img src="images/ensemblepredict.png">
 </p>
 
 ## 5. 추론 및 검증 결과 

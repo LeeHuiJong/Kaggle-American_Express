@@ -105,7 +105,6 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 - 전처리에 따라서 어느정도 성능의 변화를 보였고
 ### 3.3 LGBM
 - 대용량 데이터를 사용하기에 적합 10000개 이하의 데이터 사용시 과적합이 일어나기 때문에 소규모 데이터 셋에는 적절하지 않음
-- 
 - boosting 파라미터를 dart 로 설정해주는 LGBM dart 모델이 가장 많이 쓰이면서 좋은 결과를 보여줌 (0.797)
 ### 3.4 AutoML
 - AutoML에는 Catboost, lightgbm(LGBM), XGBoost 뿐 만 아니라 gbr, rf, et, ridge 등 20개의 모델을 사용.
@@ -119,6 +118,15 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 ### 3.5 앙상블
 - 결과가 좋았던 모델들 중 4~5개를 모아서 각 모델별로 가중치를 달리해 예측값을 취합.
 - XGBoost, AutoML(30,000), LGBM, Overfitting 과 같은 모델들을 사용해 앙상블. 특히 대규모 데이터 셋에 적합한 LGBM은 각기 다른 성능의 LGBM 모델들을 다수 사용.
+- 결과는 다음과 같다.
+
+<p align="center">
+    <img src="images/Ensemble_submit_pred.png">
+</p>
+
+<p align="center">
+    <img src="images/submit.jpg">
+</p>
 
 
 ## 4. 모델 시행 결과

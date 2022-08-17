@@ -145,6 +145,9 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 <br> 낮은 성능을 보여주는 경향이 있다.
 
 ### 4.5. Ansemble(앙상블)
+<p align="left">
+    <img src="images/ansemblepredict.png">
+</p>
 
 ## 5. 추론 및 검증 결과 
 

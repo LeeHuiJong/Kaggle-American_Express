@@ -131,11 +131,11 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 
 ## 4. 모델 시행 결과
 - 사용 변수 결측치 수정 및 다양한 모델 사용하여 예측 모델을 구현
-- AutoML score : 0.765
-- LightGBM score : 0.788
-- XGBoost score : 0.793
-- Catboost score : 0.794
-- Emsemble score : 0.799
+### 4.1. XGBoost
+<p align="center">
+    <img src="images/xgbpredict.PNG">
+</p>
+
 ## 5. 추론 및 검증 결과 
 
 ## 6. 프로젝트 결과

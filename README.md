@@ -1,6 +1,6 @@
 # Kaggle-American Express - Default Prediction
 
-<p align="left">
+<p align="center">
     <img src="images/amex pic.png">
 </p>
 

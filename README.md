@@ -132,9 +132,22 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 ## 4. 모델 시행 결과
 - 사용 변수 결측치 수정 및 다양한 모델 사용하여 예측 모델을 구현
 ### 4.1. XGBoost
-<p align="center">
+<p align="left">
     <img src="images/xgbpredict.png">
 </p>
+### 4.2. Catboost
+<p align="left">
+    <img src="images/catboostpredict.png">
+</p>
+### 4.3. LGBM
+<p align="left">
+    <img src="images/lgbmpredict.png">
+</p>
+### 4.4. AutoML(pycaret)
+<p align="left">
+    <img src="images/automlpredict.png">
+</p>
+### 4.5. Ansemble(앙상블)
 
 ## 5. 추론 및 검증 결과 
 

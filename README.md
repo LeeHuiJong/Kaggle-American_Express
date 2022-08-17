@@ -98,26 +98,15 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 ## 3. 모델 선정
 - 우선 세가지 머신러닝 XGBoost, Catboost, LGBM 모델이 가장 많이 쓰이고 있었기 때문에 사용.
 ### 3.1 XGBoost
-- 가장 보편적인 모델, 많은 사람들이 XGB모델을 사용해서 준수한 예측 결과를 도출해냄(4500팀중 1500등 정도의 성능을 지님).
-- 준수한 성능을 보여주었고 약간의 결측치 처리에 변화를 주어도 성능이 어느정도 상승함<br>->[결측치 변화 후 시행 결과](https://github.com/LeeHuiJong/Kaggle-American_Express/blob/main/%EB%AA%A8%EB%8D%B8%EC%8B%9C%ED%96%89/amex-fold-10-nan-0.ipynb)
-### 3.2 Catboost
-- XGB와 마찬가지로 boost 모델의 종류중 한가지. 파라미터가 xgb보다 많기 때문에 훈련 과정에 시간이 많이 걸릴것으로 예상
-- 전처리에 따라서 어느정도 성능의 변화를 보였고
-### 3.3 LGBM
-- 대용량 데이터를 사용하기에 적합 10000개 이하의 데이터 사용시 과적합이 일어나기 때문에 소규모 데이터 셋에는 적절하지 않음
-- boosting 파라미터를 dart 로 설정해주는 LGBM dart 모델이 가장 많이 쓰이면서 좋은 결과를 보여줌 (0.797)
-### 3.4 AutoML
-- AutoML에는 Catboost, lightgbm(LGBM), XGBoost 뿐 만 아니라 gbr, rf, et, ridge 등 20개의 모델을 사용.
-- 한 번 시행시 데이터를 모든 모델에 넣어보기 때문에 경제성이 매우 떨어지는 단점.
-- train(약 460,000개)의 크기를 2,000 / 10,000 / 12,000 / 15,000 / 30,000 개로 증가시켜 시행 해 본 결과 0.725/ 0.756/ 0.757/ 0.764/ 0.765로 train 데이터가 커질수록 좋은 결과가 나오는 것을 확인.
 
-<p align="center">
-    <img src="images/AutoML_Model_evaluation.PNG">
-</p>
+### 3.2 Catboost
+
+### 3.3 LGBM
+
+### 3.4 AutoML
+
 
 ### 3.5 앙상블
-- 결과가 좋았던 모델들 중 4~5개를 모아서 각 모델별로 가중치를 달리해 예측값을 취합.
-- XGBoost, AutoML(30,000), LGBM, Overfitting 과 같은 모델들을 사용해 앙상블. 특히 대규모 데이터 셋에 적합한 LGBM은 각기 다른 성능의 LGBM 모델들을 다수 사용.
 
 ## 4. 모델 시행 결과
 - 사용 변수 결측치 수정 및 다양한 모델 사용하여 예측 모델을 구현
@@ -126,17 +115,36 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
     <img src="images/xgbpredict.png">
 </p>
 
+- 가장 보편적인 모델, 많은 사람들이 XGB모델을 사용해서 준수한 예측 결과를 도출해냄(4500팀중 1500등 정도의 성능을 지님).
+- 준수한 성능을 보여주었고 약간의 결측치 처리에 변화를 주어도 성능이 어느정도 상승함<br>->[결측치 변화 후 시행 결과](https://github.com/LeeHuiJong/Kaggle-American_Express/blob/main/%EB%AA%A8%EB%8D%B8%EC%8B%9C%ED%96%89/amex-fold-10-nan-0.ipynb)
+
 ### 4.2. Catboost (0.794)
 <p align="left">
     <img src="images/catboostpredict.png">
 </p>
+
+- XGB와 마찬가지로 boost 모델의 종류중 한가지. 파라미터가 xgb보다 많기 때문에 훈련 과정에 시간이 많이 걸릴것으로 예상
+- 전처리에 따라서 어느정도 성능의 변화를 보였고
 
 ### 4.3. LGBM (0.788)
 <p align="left">
     <img src="images/lgbmpredict.png">
 </p>
 
+- 대용량 데이터를 사용하기에 적합 10000개 이하의 데이터 사용시 과적합이 일어나기 때문에 소규모 데이터 셋에는 적절하지 않음
+- boosting 파라미터를 dart 로 설정해주는 LGBM dart 모델이 가장 많이 쓰이면서 좋은 결과를 보여줌 (0.797)
+
 ### 4.4. AutoML(pycaret) (0.765)
+
+- AutoML에는 Catboost, lightgbm(LGBM), XGBoost 뿐 만 아니라 gbr, rf, et, ridge 등 20개의 모델을 사용.
+- 한 번 시행시 데이터를 모든 모델에 넣어보기 때문에 경제성이 매우 떨어지는 단점.
+- train(약 460,000개)의 크기를 2,000 / 10,000 / 12,000 / 15,000 / 30,000 개로 증가시켜 시행 해 본 결과 0.725/ 0.756/ 0.757/ 0.764/ 0.765로 train 데이터가 커질수록 좋은 결과가 나오는 것을 확인.
+
+<p align="center">
+    <img src="images/AutoML_Model_evaluation.PNG">
+</p>
+
+
 <p align="left">
     <img src="images/automlpredict.png">
 </p>
@@ -148,6 +156,9 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 <p align="left">
     <img src="images/ensemblepredict.png">
 </p>
+
+- 결과가 좋았던 모델들 중 4~5개를 모아서 각 모델별로 가중치를 달리해 예측값을 취합.
+- XGBoost, AutoML(30,000), LGBM, Overfitting 과 같은 모델들을 사용해 앙상블. 특히 대규모 데이터 셋에 적합한 LGBM은 각기 다른 성능의 LGBM 모델들을 다수 사용.
 
 ## 5. 추론 및 검증 결과 
 

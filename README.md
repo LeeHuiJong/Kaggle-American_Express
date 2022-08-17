@@ -133,7 +133,7 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 - 사용 변수 결측치 수정 및 다양한 모델 사용하여 예측 모델을 구현
 ### 4.1. XGBoost
 <p align="center">
-    <img src="images/xgbpredict.PNG">
+    <img src="images/xgbpredict.png">
 </p>
 
 ## 5. 추론 및 검증 결과 

@@ -97,6 +97,18 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 
 ## 3. 모델 선정
 - 우선 세가지 머신러닝 XGBoost, Catboost, LGBM 모델이 가장 많이 쓰이고 있었기 때문에 사용.
+- 배깅(Bagging; Bootstrap Aggregating)
+    - Whole Data Set에서 Random Sampling
+    - 각각의 Weak Tree가 Independent
+    - 각각의 Weak Tree는 Parallel 하게 학습
+    - 각각의 Weak Tree르 균등한 비중으로 앙상블 하여 최종 결과를 도출
+    - 학습 속도가 빠르고, 적은 데이터만으로도 준수한 일반화 성능을 얻을 수 있음
+- 부스팅(Boosting)
+    - Whole Data Set에서 Random Sampling을 하지만, 매 Sampling마다 추출 확률이 다름
+    - 각각의 Weak Tree가 Dependent
+    - 각각의 Weak Tree는 Sequential 하게 학습 (XGB 이후 병렬 학습 가능)
+    - 성능이 좋은 Weak Tree에 가중치를 주어 앙상블, 최종 결과를 도출
+    - 학습 속도가 느리지만, 강력한 성능. 오버피팅을 주의
 ### 3.1 XGBoost
 
 ### 3.2 Catboost

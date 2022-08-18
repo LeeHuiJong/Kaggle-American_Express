@@ -112,6 +112,7 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
     - 각각의 Weak Tree르 균등한 비중으로 앙상블 하여 최종 결과를 도출
     - 학습 속도가 빠르고, 적은 데이터만으로도 준수한 일반화 성능을 얻을 수 있음
 - 부스팅(Boosting)
+    - 순차적으로, 복원추출로 가중치를 두며, 배깅과는 다르게 순차적으로 진행    
     - Whole Data Set에서 Random Sampling을 하지만, 매 Sampling마다 추출 확률이 다름
     - 각각의 Weak Tree가 Dependent
     - 각각의 Weak Tree는 Sequential 하게 학습 (XGB 이후 병렬 학습 가능)

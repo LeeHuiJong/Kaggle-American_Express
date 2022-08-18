@@ -128,11 +128,11 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 - LightGBM의 특징은 학습 방법에서 트리를 생성할 때 Level-wise 방법으로 생성하지 않고 Leaf-Wise 방법으로 트리를 만들어 나감
 - 일반적인 의사결정나무는 한층에서 가지를 만들면 다른 층에서 가질르 만들어주고 다음 단계로 넘어가는데, LightGBM은 층에 제약없이 잎에서 가지를 치고 또 가지를 치는 방식으로 의사결정나무 생성
 
-<p align="left">
+<p align="center">
     <img src="images/Level_wise.PNG">
 </p>
 
-<p align="left">
+<p align="center">
     <img src="images/Leaf-wise.PNG">
 </p>
 

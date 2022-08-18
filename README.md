@@ -96,7 +96,7 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 <br>
 
 ## 3. 모델 선정
-- 우선 세가지 머신러닝 XGBoost, Catboost, LGBM 모델이 가장 많이 쓰이고 있었기 때문에 사용.
+- 우선 세가지 머신러닝 XGBoost, Catboost, LightGBM 모델이 가장 많이 쓰이고 있었기 때문에 사용.
 
 - 부트스트랩(Booststrap)
     - Random Sampling을 적용하는 방법. ex) 한 식자재마트에 들어 오는 상추의 신선도를 알고 싶은 경우, 마트로 입고되는 모든 상추 중 임의로 100개를 뽑아 그 상추의 신선도 평균을 구하는 것

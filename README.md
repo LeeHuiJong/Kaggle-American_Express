@@ -103,7 +103,7 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
     - Raw Data의 본포를 추정할 때 사용 ( 측정된 데이터 중에서 중복을 허용한 복원 추출로 n개를 뽑고, 뽑은 n개의 평균을 구하는 것을 m번 반복하여 모아 평균에 대한 분포 구하기, sampling mean에 개한 신뢰구간을 추정)
     - 머신러닝에서는 Random Sampling을 통해 training data를 늘릴 수 있음
     - 배깅(Bagging)은 부트스트랩(bootstrap)을 집계(Aggregating)하여 학습 데이터가 충분하지 않더라도 충분한 학습효과를 주어 높은 bias의 underfitting 문제나, 높은 variance로 인한 overfitting 문제를해결하는데 도움
-    - categorical data
+    - categorical data의 경우 투표로 집계되며, continuous data의 경우 평균으로 집계
 
 - 배깅(Bagging; Bootstrap Aggregating)
     - Whole Data Set에서 Random Sampling
@@ -117,6 +117,7 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
     - 각각의 Weak Tree는 Sequential 하게 학습 (XGB 이후 병렬 학습 가능)
     - 성능이 좋은 Weak Tree에 가중치를 주어 앙상블, 최종 결과를 도출
     - 학습 속도가 느리지만, 강력한 성능. 오버피팅을 주의
+    
 ### 3.1 XGBoost
 - 여러 개의 의사결정나무를 앙상블한 알고리즘. 하지만 XGBoost는 Random Forest와 다르게 boosting 앙상블로 구현된 모델
 - boosting 방식이란, 한개의 예측 모델에 대한 error을 줄이는 방식의 앙상블 기법

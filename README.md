@@ -236,12 +236,11 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 - 어떤 모델을 앙상블 하느냐에 따라 성능의 차이가 어느정도 존재했다. 하지만 큰 차이는 없었다.
 - 앙상블 결과는 모델 결과에 상관없이 성능을 보여줌 (성능이 좋은 단일 모델끼리 앙상블 한다고 해서 항상 좋은 결과를 보여주는 것이 아니었음)
 <p align="center">
+    <img src="images/kaggle_3.PNG">
+</p>
+<p align="center">
     <img src="images/Kaggle_1.PNG">
 </p>
 <p align="center">
     <img src="images/kaggle_2.PNG">
 </p>
-<p align="center">
-    <img src="images/kaggle_3.PNG">
-</p>
-

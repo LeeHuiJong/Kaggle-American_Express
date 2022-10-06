@@ -235,6 +235,7 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 - 앙상블은 우리 팀이 실행했던 모든 기법들 중 가장 좋은 성능을 보여줌.
 - 어떤 모델을 앙상블 하느냐에 따라 성능의 차이가 어느정도 존재했다. 하지만 큰 차이는 없었다.
 - 앙상블 결과는 모델 결과에 상관없이 성능을 보여줌 (성능이 좋은 단일 모델끼리 앙상블 한다고 해서 항상 좋은 결과를 보여주는 것이 아니었음)
+- 316 / 4874의 성적을 거두었고, 상위 7%의 성적을 기록한 덕분에 kaggle에서 동메달을 수상하였습니다.
 - 링크(https://www.kaggle.com/competitions/amex-default-prediction/leaderboard)
 <p align="center">
     <img src="images/kaggle_3.PNG">

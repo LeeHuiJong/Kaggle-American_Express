@@ -17,7 +17,7 @@
                      D_* = Delinquency: 과실, 태만, 체납 -> 연체 변수  
                      S_* = Spend. 소비 변수  
                      P_* = Payment. 지급 변수  
-                     B_* = Balance. 균형 변수  
+                     B_* = Balance. 잔고 변수  
                      R_* = Risk. 위험 변수
 - [데이터 원본](https://www.kaggle.com/competitions/amex-default-prediction/data)
 - 외부 데이터 사용여부 : 카드사 자체에서 제공한 데이터이기 때문에 연관성 있는 외부데이터 사용불가.

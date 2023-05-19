@@ -100,7 +100,7 @@ Default(연체)와 Paid(지불)의 비율을 알아 보았다.
 
 - 부트스트랩(Booststrap)
     - Random Sampling을 적용하는 방법. ex) 한 식자재마트에 들어 오는 상추의 신선도를 알고 싶은 경우, 마트로 입고되는 모든 상추 중 임의로 100개를 뽑아 그 상추의 신선도 평균을 구하는 것
-    - Raw Data의 본포를 추정할 때 사용 ( 측정된 데이터 중에서 중복을 허용한 복원 추출로 n개를 뽑고, 뽑은 n개의 평균을 구하는 것을 m번 반복하여 모아 평균에 대한 분포 구하기, sampling mean에 개한 신뢰구간을 추정)
+    - Raw Data의 본포를 추정할 때 사용 ( 측정된 데이터 중에서 중복을 허용한 복원 추출로 n개를 뽑고, 뽑은 n개의 평균을 구하는 것을 m번 반복하여 모아 평균에 대한 분포 구하기, sampling mean에 대한 신뢰구간을 추정)
     - 머신러닝에서는 Random Sampling을 통해 training data를 늘릴 수 있음
     - 배깅(Bagging)은 부트스트랩(bootstrap)을 집계(Aggregating)하여 학습 데이터가 충분하지 않더라도 충분한 학습효과를 주어 높은 bias의 underfitting 문제나, 높은 variance로 인한 overfitting 문제를 해결하는데 도움
     - categorical data의 경우 투표로 집계되며, continuous data의 경우 평균으로 집계

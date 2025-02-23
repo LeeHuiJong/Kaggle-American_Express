@@ -4,6 +4,10 @@
     <img src="images/amex pic.png">
 </p>
 
+<p align="center">
+    <img src="images/kaggle_2.PNG">
+</p>
+
 ## 0. 대회 정보
 - 대회 목표: American Express 카드사의 고객들이 향후 신용카드 잔액을 납부하지 않을 확률을 예측.
             120일 내에 납부하지 않을 경우 기본 이벤트로 간주함.(납부함 = 1, 납부안함 = 0)

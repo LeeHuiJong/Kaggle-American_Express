@@ -3,7 +3,9 @@
 <p align="center">
     <img src="images/amex pic.png">
 </p>
-
+<p align="center">
+    <img src="images/kaggle_3.PNG">
+</p>
 <p align="center">
     <img src="images/kaggle_2.PNG">
 </p>
